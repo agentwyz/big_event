@@ -11,8 +11,8 @@ import java.io.InputStream;
 
 public class AliOssUtil {
     private static final String ENDPOINT = "https://oss-cn-beijing.aliyuncs.com";
-    private static final String ACCESS_KEY_ID = "LTAI5tM3TaFLuGACCzSwvYf2";
-    private static final String ACCESS_KEY_SECRET="JkfnotcbeGTJW95K6cdhijd3vuP74Y";
+    private static final String ACCESS_KEY_ID = "";
+    private static final String ACCESS_KEY_SECRET="";
     private static final String BUCKET_NAME = "big-event-wyz";
 
     public static String upload(String objectName, InputStream inputStream) {
